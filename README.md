@@ -3,6 +3,23 @@
 O **Chatbot de Estudos RAG** é uma ferramenta inteligente desenvolvida para ajudar estudantes e profissionais a **interagir com seus próprios materiais de estudo**.  
 Com ele, é possível **enviar um PDF** e fazer perguntas sobre o conteúdo — o chatbot responde de forma contextualizada, utilizando **IA generativa (Gemini)** e técnicas modernas de **RAG (Retrieval-Augmented Generation)**.
 
+## 🤔 Por que RAG (Retrieval-Augmented Generation)?
+
+Embora os modelos de linguagem de grande escala (**LLMs**) sejam extremamente poderosos, eles enfrentam dois desafios principais no cenário corporativo e acadêmico:
+
+1.  **Alucinações:** O modelo pode gerar respostas factualmente incorretas com um alto nível de confiança.
+2.  **Dados Desatualizados ou Privados:** O conhecimento de um modelo pré-treinado é limitado à sua data de corte (*knowledge cutoff*) e ele não possui acesso a informações privadas ou documentos específicos de um negócio.
+
+O **RAG** resolve esses problemas ao criar uma "ponte" inteligente entre o modelo de linguagem e uma base de dados externa e confiável.
+
+### 🚀 Benefícios implementados neste projeto:
+
+* **Precisão Contextual:** O chatbot primeiro realiza a busca do trecho exato no documento fornecido (**Retrieval**) e o entrega ao modelo para que ele gere a resposta (**Generation**) baseada estritamente naquele contexto.
+* **Auditabilidade:** Como o modelo utiliza trechos específicos dos documentos, é possível verificar a fonte da informação, aumentando a confiabilidade da resposta.
+* **Eficiência e Escalabilidade:** Em vez de realizar o ajuste fino (*Fine-Tuning*) do modelo — que exige alto custo computacional —, o RAG permite atualizar o conhecimento da IA apenas adicionando novos documentos à base vetorial.
+
+Neste projeto, utilizei a arquitetura RAG para transformar dados estáticos em uma **interface de conversação dinâmica, segura e baseada em fatos.**
+
 ---
 
 ## 🚀 Tecnologias Utilizadas
