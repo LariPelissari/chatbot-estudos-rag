@@ -1,0 +1,15 @@
+# Ambiente virtual
+venv/
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# Streamlit
+.streamlit/
+
+# Arquivos locais
+.env
+
+# PDFs de estudo
+*.pdf
