@@ -1,5 +1,14 @@
 # 🎓 Chatbot de Estudos RAG (PDF + Gemini)
 
+## 🚀 Demonstração
+
+Para visualizar a aplicação em execução, acesse os links abaixo:
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://chatbot-estudos-rag.streamlit.app/)
+> **Nota:** Se a aplicação estiver em modo de hibernação ("Zzzz"), basta clicar em **"Yes, get this app back up!"** e aguardar alguns segundos.
+
+---
+
 O **Chatbot de Estudos RAG** é uma ferramenta inteligente desenvolvida para ajudar estudantes e profissionais a **interagir com seus próprios materiais de estudo**.  
 Com ele, é possível **enviar um PDF** e fazer perguntas sobre o conteúdo — o chatbot responde de forma contextualizada, utilizando **IA generativa (Gemini)** e técnicas modernas de **RAG (Retrieval-Augmented Generation)**.
 
